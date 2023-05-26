@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="16sp" android:textColor="?attr/contentPrimary" android:id="@+id/messageText" android:paddingLeft="16dp" android:paddingTop="10dp" android:paddingRight="16dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6dp" android:maxLines="1" style="@style/Widget.UIKit.TextView.BodyM.SemiBold"/>

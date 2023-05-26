@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="inapp_button_height">66dp</dimen>
+    <dimen name="rate_me_content_top_padding">160dp</dimen>
+    <dimen name="rate_me_portrait_content_padding">100dp</dimen>
+    <dimen name="text_size_large">28sp</dimen>
+    <dimen name="text_size_normal">20sp</dimen>
+    <dimen name="text_size_semi_large">22sp</dimen>
+    <dimen name="text_size_semi_larger">24sp</dimen>
+    <dimen name="txt_size_inapp_button">22sp</dimen>
+    <dimen name="txt_size_inapp_half_button">22sp</dimen>
+    <dimen name="txt_size_inapp_half_message">24sp</dimen>
+    <dimen name="txt_size_inapp_half_title">36sp</dimen>
+    <dimen name="txt_size_inapp_message">24sp</dimen>
+    <dimen name="txt_size_inapp_title">36sp</dimen>
+</resources>

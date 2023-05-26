@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="carsharing_vehicle_filters_card_available_cars_exact">
+        <item quantity="one">%s car available</item>
+        <item quantity="other">%s cars available</item>
+    </plurals>
+    <plurals name="carsharing_vehicle_filters_card_button_show_cars_exact">
+        <item quantity="one">Show %s car</item>
+        <item quantity="other">Show %s cars</item>
+    </plurals>
+    <plurals name="design_duration_picker_hours_count">
+        <item quantity="zero">%s hours</item>
+        <item quantity="one">%s hour</item>
+        <item quantity="other">%s hours</item>
+    </plurals>
+    <plurals name="design_duration_picker_minutes_count">
+        <item quantity="zero">%s minutes</item>
+        <item quantity="one">%s minute</item>
+        <item quantity="other">%s minutes</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="plurals_matcher">
+        <item quantity="zero">@string/plurals_quantity_zero</item>
+        <item quantity="one">@string/plurals_quantity_one</item>
+        <item quantity="two">@string/plurals_quantity_two</item>
+        <item quantity="few">@string/plurals_quantity_few</item>
+        <item quantity="many">@string/plurals_quantity_many</item>
+        <item quantity="other">@string/plurals_quantity_other</item>
+    </plurals>
+    <plurals name="profile_rides_plural_count">
+        <item quantity="one">Ride</item>
+        <item quantity="other">Rides</item>
+    </plurals>
+    <plurals name="ride_feedback_problems_selected">
+        <item quantity="zero">%d selected</item>
+        <item quantity="one">%d selected</item>
+        <item quantity="two">%d selected</item>
+        <item quantity="few">%d selected</item>
+        <item quantity="many">%d selected</item>
+        <item quantity="other">%d selected</item>
+    </plurals>
+</resources>

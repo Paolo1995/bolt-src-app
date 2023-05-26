@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="12dp" android:layout_height="6dp" android:layout_marginTop="24dp" android:src="@drawable/up_pointing_triangle_icon_slate_gray" app:tint="?attr/backQuarternary"/>
+            <TextView android:textColor="?attr/contentPrimary" android:id="@+id/activity_totalHours" android:background="@drawable/rounded_corners_light_purple" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/char_hyphen" android:paddingStart="12dp" android:paddingEnd="12dp" app:backgroundTint="?attr/backQuarternary" style="@style/Widget.UIKit.TextView.HeadingM.Bold"/>
+        </LinearLayout>
+        <View android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+        <ee.mtakso.driver.ui.base.statistics.BarGraphView android:layout_gravity="center_horizontal" android:id="@+id/activity_hoursGraph" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+        <View android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+        <TextView android:textColor="?attr/contentSecondary" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginBottom="14dp" android:text="@string/activity_hours_disclaimer" android:layout_marginStart="24dp" android:layout_marginEnd="24dp" style="@style/Widget.UIKit.TextView.BodyXS.Regular"/>
+    </LinearLayout>
+</ScrollView>

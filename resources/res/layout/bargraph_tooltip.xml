@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/bargraph_tooltipArrow" android:layout_width="12dp" android:layout_height="6dp" android:src="@drawable/up_pointing_triangle_icon_slate_gray" app:tint="?attr/backQuarternary"/>
+    <ImageView android:id="@+id/bargraph_tooltipBackground" android:background="@drawable/rounded_corners_light_purple" android:layout_width="0dp" android:layout_height="0dp" android:layout_alignTop="@+id/bargraph_tooltipContent" android:layout_alignBottom="@+id/bargraph_tooltipContent" android:layout_alignStart="@+id/bargraph_tooltipContent" android:layout_alignEnd="@+id/bargraph_tooltipContent" app:backgroundTint="?attr/backQuarternary"/>
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/bargraph_tooltipContent" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/bargraph_tooltipArrow"/>
+</merge>

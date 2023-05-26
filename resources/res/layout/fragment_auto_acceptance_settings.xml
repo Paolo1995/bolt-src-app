@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?attr/backTertiary" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingTop="1dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/containerMainToggle" android:background="?attr/backPrimary" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp">
+            <TextView android:textColor="?attr/contentPrimary" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/auto_accept" android:layout_weight="1" style="@style/Widget.UIKit.TextView.BodyM.Regular"/>
+            <androidx.appcompat.widget.SwitchCompat android:layout_gravity="end" android:id="@+id/switchAutoAcceptance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_marginStart="16dp"/>
+        </LinearLayout>
+        <TextView android:textColor="?attr/contentSecondary" android:id="@+id/autoAcceptanceDescription" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/auto_accept_description" android:paddingStart="24dp" android:paddingEnd="24dp" style="@style/Widget.UIKit.TextView.BodyS.Regular"/>
+    </LinearLayout>
+</ScrollView>

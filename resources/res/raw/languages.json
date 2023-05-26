@@ -1,0 +1,230 @@
+[
+    {
+        "languageCode": "ar",
+        "countryCode": "EG",
+        "languageName": "العربية (مصر)",
+        "zendeskLanguageCode": "ar"
+    },
+    {
+        "languageCode": "ar",
+        "countryCode": "IQ",
+        "languageName": "العربية (العراق)",
+        "zendeskLanguageCode": "ar"
+    },
+    {
+        "languageCode": "ar",
+        "countryCode": "SA",
+        "languageName": "العربية (المملكة العربية السعودية)",
+        "zendeskLanguageCode": "ar"
+    },
+    {
+        "languageCode": "hy",
+        "countryCode": "AM",
+        "languageName": "Հայերեն",
+        "zendeskLanguageCode": "hy"
+    },
+    {
+        "languageCode": "az",
+        "countryCode": "AZ",
+        "languageName": "Azərbaycan",
+        "zendeskLanguageCode": "az"
+    },
+    {
+        "languageCode": "be",
+        "countryCode": "BY",
+        "languageName": "Беларуская",
+        "zendeskLanguageCode": "en"
+    },
+    {
+        "languageCode": "hr",
+        "countryCode": "HR",
+        "languageName": "Hrvatski",
+        "zendeskLanguageCode": "hr"
+    },
+    {
+        "languageCode": "cs",
+        "countryCode": "CZ",
+        "languageName": "Čeština",
+        "zendeskLanguageCode": "cs"
+    },
+    {
+        "languageCode": "et",
+        "countryCode": "EE",
+        "languageName": "Eesti",
+        "zendeskLanguageCode": "et"
+    },
+    {
+        "languageCode": "en",
+        "countryCode": "US",
+        "languageName": "English",
+        "zendeskLanguageCode": "en"
+    },
+    {
+        "languageCode": "en",
+        "countryCode": "GB",
+        "languageName": "English, United Kingdom",
+        "zendeskLanguageCode": "en"
+    },
+    {
+        "languageCode": "fr",
+        "countryCode": "FR",
+        "languageName": "Française",
+        "zendeskLanguageCode": "fr"
+    },
+    {
+        "languageCode": "hu",
+        "countryCode": "HU",
+        "languageName": "Magyar",
+        "zendeskLanguageCode": "hu"
+    },
+    {
+        "languageCode": "lv",
+        "countryCode": "LV",
+        "languageName": "Latviešu",
+        "zendeskLanguageCode": "lv"
+    },
+    {
+        "languageCode": "lt",
+        "countryCode": "LT",
+        "languageName": "Lietuvių",
+        "zendeskLanguageCode": "lt"
+    },
+    {
+        "languageCode": "lg",
+        "countryCode": "UG",
+        "languageName": "Luganda",
+        "zendeskLanguageCode": "en"
+    },
+    {
+        "languageCode": "pl",
+        "countryCode": "PL",
+        "languageName": "Polski",
+        "zendeskLanguageCode": "pl"
+    },
+    {
+        "languageCode": "ka",
+        "countryCode": "GE",
+        "languageName": "ქართული",
+        "zendeskLanguageCode": "ka"
+    },
+    {
+        "languageCode": "de",
+        "countryCode": "DE",
+        "languageName": "Deutsch",
+        "zendeskLanguageCode": "de"
+    },
+    {
+        "languageCode": "el",
+        "countryCode": "GR",
+        "languageName": "Ελληνικά",
+        "zendeskLanguageCode": "el"
+    },
+    {
+        "languageCode": "ro",
+        "countryCode": "RO",
+        "languageName": "Română",
+        "zendeskLanguageCode": "ro"
+    },
+    {
+        "languageCode": "pt",
+        "countryCode": "PT",
+        "languageName": "Português",
+        "zendeskLanguageCode": "pt"
+    },
+    {
+        "languageCode": "ru",
+        "countryCode": "RU",
+        "languageName": "Pусский",
+        "zendeskLanguageCode": "ru"
+    },
+    {
+        "languageCode": "sr",
+        "countryCode": "RS",
+        "languageName": "Srpski",
+        "zendeskLanguageCode": "en"
+    },
+    {
+        "languageCode": "sk",
+        "countryCode": "SK",
+        "languageName": "Slovenčina",
+        "zendeskLanguageCode": "sk"
+    },
+    {
+        "languageCode": "es",
+        "countryCode": "ES",
+        "languageName": "Español-España",
+        "zendeskLanguageCode": "es"
+    },
+    {
+        "languageCode": "es",
+        "countryCode": "MX",
+        "languageName": "Español-México",
+        "zendeskLanguageCode": "es"
+    },
+    {
+        "languageCode": "fi",
+        "countryCode": "FI",
+        "languageName": "Suomi",
+        "zendeskLanguageCode": "fi"
+    },
+    {
+        "languageCode": "sw",
+        "countryCode": "TZ",
+        "languageName": "Swahili",
+        "zendeskLanguageCode": "sw"
+    },
+    {
+        "languageCode": "sv",
+        "countryCode": "SE",
+        "languageName": "Svenska",
+        "zendeskLanguageCode": "sv"
+    },
+    {
+        "languageCode": "tr",
+        "countryCode": "TR",
+        "languageName": "Türkçe",
+        "zendeskLanguageCode": "en"
+    },
+    {
+        "languageCode": "uk",
+        "countryCode": "UA",
+        "languageName": "Українська",
+        "zendeskLanguageCode": "uk"
+    },
+    {
+        "languageCode": "ne",
+        "countryCode": "NP",
+        "languageName": "नेपाली",
+        "zendeskLanguageCode": "ne"
+    },
+    {
+        "languageCode": "th",
+        "countryCode": "TH",
+        "languageName": "ภาษาไทย",
+        "zendeskLanguageCode": "en"
+    },
+    {
+        "languageCode": "nl",
+        "countryCode": "NL",
+        "languageName": "Nederlands",
+        "zendeskLanguageCode": "nl"
+    },
+    {
+        "languageCode": "ur",
+        "countryCode": "PK",
+        "languageName": "اُردُو",
+        "zendeskLanguageCode": "en"
+    },
+    {
+        "languageCode": "no",
+        "countryCode": "NO",
+        "languageName": "Norsk",
+        "zendeskLanguageCode": "no"
+    },
+    {
+        "languageCode": "si",
+        "countryCode": "LK",
+        "languageName": "සිංහල",
+        "zendeskLanguageCode": "en"
+    }
+]

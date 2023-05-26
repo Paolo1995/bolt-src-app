@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/optInChoiceContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp">
+    <CheckBox android:layout_gravity="center" android:id="@+id/optInChoiceRadioButton" android:background="@drawable/selector_check_neural300_purple500_circle" android:layout_width="24dp" android:layout_height="24dp" android:button="@null" app:buttonCompat="@null"/>
+    <androidx.cardview.widget.CardView android:id="@+id/optInChoiceInfoContainer" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" android:layout_marginStart="16dp" app:cardBackgroundColor="?attr/backTertiary" app:cardCornerRadius="4dp" app:cardElevation="4dp" app:cardUseCompatPadding="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:textSize="16sp" android:textColor="?attr/contentSecondary" android:id="@+id/optInChoiceTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginStart="16dp" style="@style/Widget.UIKit.TextView.BodyM.SemiBold"/>
+                <TextView android:textSize="14sp" android:textColor="?attr/contentSecondary" android:id="@+id/optInChoiceDescription" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginBottom="10dp" android:layout_marginStart="16dp" style="@style/Widget.UIKit.TextView.BodyS.Regular"/>
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="12dp" android:src="@drawable/ic_chevron_right" android:scaleType="fitCenter" android:tint="?attr/dynamicNeutral04" android:rotationY="@integer/viewRtlRotationAngle" android:layout_marginEnd="21dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/res_0x7f080006_anim_menu_to_back__0">
+    <target android:name="path_3" android:animation="@drawable/res_0x7f080007_anim_menu_to_back__1"/>
+    <target android:name="path_4" android:animation="@drawable/res_0x7f080008_anim_menu_to_back__2"/>
+    <target android:name="path_5" android:animation="@drawable/res_0x7f080009_anim_menu_to_back__3"/>
+</animated-vector>

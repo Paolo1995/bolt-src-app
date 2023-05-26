@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ee.mtakso.driver.uicore.components.views.IndeterminateProgressView android:id="@+id/loadingProgressView" android:layout_width="32dp" android:layout_height="32dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:pv_progressStyle="round" app:pv_progressWidth="4dp"/>
+</merge>

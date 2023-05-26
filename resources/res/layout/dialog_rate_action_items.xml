@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/neutral900" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize">
+        <ee.mtakso.driver.uicore.components.views.PopupToolbar android:id="@+id/toolbar" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:layout_collapseMode="pin" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0" app:ptb_icon="back" app:ptb_titleInCenter="true" app:ptb_titleTextAppearance="@style/PopupToolbarStyle.Title" style="@style/PopupToolbarStyle"/>
+        <View android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:layout_marginBottom="10dp" app:layout_collapseMode="parallax"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerView" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/rate_me_additional_content_padding" android:layout_marginEnd="@dimen/rate_me_additional_content_padding" app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/scrollableShadowIndicator" android:background="@drawable/upper_shadow" android:layout_width="match_parent" android:layout_height="5dp" android:layout_above="@+id/buttonPanel" android:alpha="0.16"/>
+        <FrameLayout android:id="@+id/buttonPanel" android:background="@color/neutral900" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ee.mtakso.driver.uikit.widgets.RoundButton android:layout_gravity="center" android:id="@+id/actionButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:maxWidth="320dp" android:text="@string/rate_me_dislike_button" android:layout_marginStart="@dimen/rate_me_portrait_content_padding" android:layout_marginEnd="@dimen/rate_me_portrait_content_padding" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" style="@style/Widget.UIKit.RoundButton.Primary.Large"/>
+        </FrameLayout>
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

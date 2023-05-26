@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="16dp" android:layout_marginRight="24dp" android:layout_marginHorizontal="24dp">
+        <eu.bolt.client.design.view.DesignPlaceholderView android:layout_width="24dp" android:layout_height="24dp"/>
+        <eu.bolt.client.design.view.DesignPlaceholderView android:layout_width="70dp" android:layout_height="16dp" android:layout_marginStart="12dp"/>
+    </LinearLayout>
+    <eu.bolt.client.design.view.DesignPlaceholderView android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginLeft="24dp" android:layout_marginTop="16dp" android:layout_marginRight="24dp" android:layout_marginHorizontal="24dp"/>
+    <eu.bolt.client.design.view.DesignPlaceholderView android:layout_width="match_parent" android:layout_height="15.5dp" android:layout_marginLeft="67dp" android:layout_marginTop="8dp" android:layout_marginRight="67dp" android:layout_marginBottom="8dp" android:layout_marginHorizontal="67dp" android:layout_marginVertical="8dp"/>
+</LinearLayout>

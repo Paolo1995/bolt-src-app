@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:drawable="@drawable/design_bg_textfield_error" app:design_state_error="true"/>
+    <item android:state_focused="true" android:drawable="@drawable/design_bg_textfield_focused"/>
+    <item android:drawable="@drawable/design_selectable_light_bg_with_corners" app:design_state_ripple_inactive="true"/>
+    <item android:drawable="@drawable/design_bg_textfield_inactive"/>
+</selector>

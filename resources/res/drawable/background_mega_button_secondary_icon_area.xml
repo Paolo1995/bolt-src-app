@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <ripple android:color="@color/neutral_300">
+            <item android:id="@android:id/mask" android:drawable="@drawable/background_mega_button_secondary_icon_area_default"/>
+            <item android:drawable="@drawable/background_mega_button_secondary_icon_area_default"/>
+        </ripple>
+    </item>
+    <item android:state_enabled="false" android:drawable="@drawable/background_mega_button_icon_area_disabled"/>
+</selector>

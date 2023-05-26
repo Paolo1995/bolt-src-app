@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse">
+    </style>
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V23.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V23.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.V23.Theme.AppCompat" parent="@style/Base.V22.Theme.AppCompat">
+        <item name="actionBarItemBackground">?android:attr/actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:attr/actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:attr/actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:attr/actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:attr/ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat.Light" parent="@style/Base.V22.Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">?android:attr/actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:attr/actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:attr/actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:attr/actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:attr/ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton.Overflow" parent="@android:style/Widget.Material.ActionButton.Overflow">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored" parent="@android:style/Widget.Material.Button.Borderless.Colored">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Colored" parent="@android:style/Widget.Material.Button.Colored">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Colored</item>
+    </style>
+    <style name="Base.Widget.AppCompat.EditText" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Indicator" parent="@android:style/Widget.Material.RatingBar.Indicator">
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Small" parent="@android:style/Widget.Material.RatingBar.Small">
+    </style>
+    <style name="Base.Widget.AppCompat.Spinner.Underlined" parent="@android:style/Widget.Material.Spinner.Underlined">
+    </style>
+    <style name="Base.Widget.AppCompat.TextView" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="BoltThemeTransparentStatusBar" parent="@style/BoltTheme">
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="CardView" parent="@style/Base.CardView">
+        <item name="cardBackgroundColor">?android:attr/colorBackgroundFloating</item>
+    </style>
+    <style name="Theme.Dark" parent="@style/BaseTheme.Kalep.Dark">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/neutral500</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="accentGreen">@color/green500</item>
+        <item name="accentNeutral">@color/white</item>
+        <item name="accentNeutralSecondary">@color/white</item>
+        <item name="accentOrange">@color/yellow700</item>
+        <item name="accentPurple">@color/purple300</item>
+        <item name="accentRed">@color/red500</item>
+        <item name="accentYellow">@color/yellow500</item>
+        <item name="backAccent">@color/purple700</item>
+        <item name="backPrimary">@color/neutral900</item>
+        <item name="backQuarternary">@color/neutral700</item>
+        <item name="backSafetyCritical">@color/neutral800</item>
+        <item name="backSecondary">@color/neutral800</item>
+        <item name="backTertiary">@color/neutral900Plus</item>
+        <item name="bottomDialogBackPrimary">@drawable/bg_bottom_sheet_dark</item>
+        <item name="bottomSheetRoundedBackground">@drawable/bg_bottom_sheet_top_round_dark</item>
+        <item name="bottomSheetTopRightRoundedBackground">@drawable/bg_bottom_sheet_top_end_round_dark</item>
+        <item name="buttonBackgroundBanner">@color/purple500</item>
+        <item name="buttonBackgroundCloseBottomSheet">@color/transparentWhite</item>
+        <item name="buttonBackgroundNavigation">@color/transparent500</item>
+        <item name="colorAccent">@color/purple500</item>
+        <item name="colorControlActivated">?attr/dynamicPurple02</item>
+        <item name="colorControlHighlight">@color/transparent400</item>
+        <item name="colorPrimary">?attr/backPrimary</item>
+        <item name="colorPrimaryDark">@color/neutral900</item>
+        <item name="colorSwitchThumbNormal">@color/neutral600</item>
+        <item name="conditionCompletedIconTint">@color/white</item>
+        <item name="contentCritical">@color/red300</item>
+        <item name="contentInverted">@color/neutral900</item>
+        <item name="contentPrimary">@color/white</item>
+        <item name="contentSecondary">@color/neutral500</item>
+        <item name="contentTransparent">@color/white400</item>
+        <item name="dialogBackPrimary">@drawable/bg_rounded_dialog_dark</item>
+        <item name="draggableIndicator">@color/white300</item>
+        <item name="dynamicGreen01">@color/green700</item>
+        <item name="dynamicGreen02">@color/green800</item>
+        <item name="dynamicGreen03">@color/green700</item>
+        <item name="dynamicNeutral01">@color/neutral800</item>
+        <item name="dynamicNeutral02">@color/neutral800</item>
+        <item name="dynamicNeutral03">@color/neutral800</item>
+        <item name="dynamicNeutral04">@color/neutral700</item>
+        <item name="dynamicNeutral05">@color/neutral900Plus</item>
+        <item name="dynamicOrange">@color/orange700</item>
+        <item name="dynamicPurple01">@color/purple700</item>
+        <item name="dynamicPurple02">@color/purple500</item>
+        <item name="dynamicRed">@color/red700</item>
+        <item name="dynamicSafetyCritical">@color/red500</item>
+        <item name="dynamicTransparent">@color/transparent800</item>
+        <item name="dynamicWhite">@color/white</item>
+        <item name="dynamicYellow">@color/yellow500</item>
+        <item name="errorIcon">@drawable/ic_connection_error_dark</item>
+        <item name="errorIconBig">@drawable/ic_connection_error_big_dark</item>
+        <item name="infoBlockBackground">@drawable/rounded_rectangle_8dp_stroke_1dp</item>
+        <item name="infoBlockBackgroundTintAlert">@color/red300</item>
+        <item name="infoBlockBackgroundTintInfo">@color/neutral800</item>
+        <item name="infoBlockBackgroundTintSuccess">@color/green500</item>
+        <item name="infoBlockBackgroundTintWarning">@color/yellow300</item>
+        <item name="infoBlockIconTintAlert">?attr/infoBlockTextAlert</item>
+        <item name="infoBlockIconTintInfo">@color/neutral600</item>
+        <item name="infoBlockIconTintSuccess">?attr/infoBlockTextSuccess</item>
+        <item name="infoBlockIconTintWarning">?attr/infoBlockTextWarning</item>
+        <item name="infoBlockTextAlert">@color/red300</item>
+        <item name="infoBlockTextInfo">?attr/contentPrimary</item>
+        <item name="infoBlockTextSuccess">@color/green500</item>
+        <item name="infoBlockTextWarning">@color/yellow300</item>
+        <item name="infoBlockTextWarningSecondary">@color/yellow300</item>
+        <item name="inputTextBackground">@color/white</item>
+        <item name="isLightTheme">false</item>
+        <item name="labelBackgroundGraySmall">@color/neutral700</item>
+        <item name="labelContentGraySmall">@color/white</item>
+        <item name="labelGreen">@color/green900</item>
+        <item name="labelRed">@color/red700</item>
+        <item name="linkAlternative">@color/purple300</item>
+        <item name="linkAlternativePressed">@color/purple500</item>
+        <item name="linkPrimary">@color/white</item>
+        <item name="linkPrimaryPressed">@color/neutral500</item>
+        <item name="mapPreviewIcon">@drawable/ic_empty_map_preview_dark</item>
+        <item name="markerMapDestination">@drawable/ic_map_marker_destination_24dp_dark</item>
+        <item name="markerMapDestinationHistory">@drawable/ic_map_marker_destination_history_22dp_dark</item>
+        <item name="markerMapDestinationMap">@drawable/ic_map_marker_destination_map_22dp_dark</item>
+        <item name="markerMapMatched">@drawable/ic_map_marker_matched_22dp_dark</item>
+        <item name="markerMapMidStop">@drawable/ic_map_marker_mid_stop_24dp_dark</item>
+        <item name="markerMapPickup">@drawable/ic_map_marker_pickup_24dp_dark</item>
+        <item name="markerRouteCancelled">@drawable/ic_route_marker_cancelled_12dp_dark</item>
+        <item name="markerRouteDestination">@drawable/ic_route_marker_destination_12dp_dark</item>
+        <item name="markerRouteMidStop">@drawable/ic_route_marker_mid_stop_8dp_dark</item>
+        <item name="markerRoutePickup">@drawable/ic_route_marker_pickup_12dp_dark</item>
+        <item name="markerRouteRejected">@drawable/ic_route_marker_rejected_12dp_dark</item>
+        <item name="navBarTabIconTint">@color/selector_nav_bar_tab_dark</item>
+        <item name="navBarTabTextColor">@color/selector_nav_bar_tab_dark</item>
+        <item name="pageIndicatorAlternative">@drawable/selector_page_indicator_alternative_dark</item>
+        <item name="progressDrawableVertical">@drawable/progress_vertical_purple_dark</item>
+        <item name="riderChipBackgroundColor">@color/selector_chip_bg_dark</item>
+        <item name="riderChipTextColor">@color/selector_chip_text</item>
+        <item name="safetyToolkitAudioRecordingIcon">@drawable/ic_safety_toolkit_audio_in_progress_dark_24</item>
+        <item name="safetyToolkitIcon">@drawable/ic_safety_toolkit_dark_24</item>
+        <item name="tabIndicatorSelectedColor">@color/purple300</item>
+        <item name="tabIndicatorTextSelectedColor">@color/white</item>
+        <item name="tabIndicatorTextUnselectedColor">@color/neutral600</item>
+        <item name="tabIndicatorUnselectedColor">@color/white200</item>
+        <item name="textInputBackground">@drawable/text_input_bg_dark</item>
+        <item name="textInputBackgroundLegacy">@drawable/text_input_bg_dark</item>
+        <item name="textInputSearchBackground">@drawable/text_input_search_bg_dark</item>
+    </style>
+    <style name="Theme.Light" parent="@style/BaseTheme.Kalep.Light">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/neutral500</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="accentGreen">@color/green700</item>
+        <item name="accentNeutral">@color/neutral700</item>
+        <item name="accentNeutralSecondary">@color/purple200</item>
+        <item name="accentOrange">@color/orange700</item>
+        <item name="accentPurple">@color/purple500</item>
+        <item name="accentRed">@color/red500</item>
+        <item name="accentYellow">@color/yellow700</item>
+        <item name="backAccent">@color/purple100</item>
+        <item name="backPrimary">@color/white</item>
+        <item name="backQuarternary">@color/white</item>
+        <item name="backSafetyCritical">@color/red500</item>
+        <item name="backSecondary">@color/white</item>
+        <item name="backTertiary">@color/neutral200</item>
+        <item name="bottomDialogBackPrimary">@drawable/bg_bottom_sheet_light</item>
+        <item name="bottomSheetRoundedBackground">@drawable/bg_bottom_sheet_top_round</item>
+        <item name="bottomSheetTopRightRoundedBackground">@drawable/bg_bottom_sheet_top_end_round</item>
+        <item name="buttonBackgroundBanner">@color/white200</item>
+        <item name="buttonBackgroundCloseBottomSheet">@color/transparentBlack</item>
+        <item name="buttonBackgroundNavigation">@color/white</item>
+        <item name="colorAccent">@color/purple500</item>
+        <item name="colorControlActivated">?attr/accentPurple</item>
+        <item name="colorControlHighlight">?attr/dynamicNeutral01</item>
+        <item name="colorPrimary">?attr/backPrimary</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="conditionCompletedIconTint">@color/green600</item>
+        <item name="contentCritical">@color/red500</item>
+        <item name="contentInverted">@color/white</item>
+        <item name="contentPrimary">@color/neutral900</item>
+        <item name="contentSecondary">@color/neutral600</item>
+        <item name="contentTransparent">@color/white400</item>
+        <item name="dialogBackPrimary">@drawable/bg_rounded_dialog_light</item>
+        <item name="draggableIndicator">@color/transparent300</item>
+        <item name="dynamicGreen01">@color/green600</item>
+        <item name="dynamicGreen02">@color/green700</item>
+        <item name="dynamicGreen03">@color/green100</item>
+        <item name="dynamicNeutral01">@color/neutral200</item>
+        <item name="dynamicNeutral02">@color/neutral300</item>
+        <item name="dynamicNeutral03">@color/neutral400</item>
+        <item name="dynamicNeutral04">@color/neutral500</item>
+        <item name="dynamicNeutral05">@color/neutral900</item>
+        <item name="dynamicOrange">@color/orange900</item>
+        <item name="dynamicPurple01">@color/purple500</item>
+        <item name="dynamicPurple02">@color/purple500</item>
+        <item name="dynamicRed">@color/red500</item>
+        <item name="dynamicSafetyCritical">@color/white</item>
+        <item name="dynamicTransparent">@color/transparent700</item>
+        <item name="dynamicWhite">@color/white</item>
+        <item name="dynamicYellow">@color/yellow500</item>
+        <item name="errorIcon">@drawable/ic_connection_error_light</item>
+        <item name="errorIconBig">@drawable/ic_connection_error_big_light</item>
+        <item name="infoBlockBackground">@drawable/rounded_rectangle_8dp_solid</item>
+        <item name="infoBlockBackgroundTintAlert">@color/red100</item>
+        <item name="infoBlockBackgroundTintInfo">@color/neutral300</item>
+        <item name="infoBlockBackgroundTintSuccess">@color/green100</item>
+        <item name="infoBlockBackgroundTintWarning">@color/yellow100</item>
+        <item name="infoBlockIconTintAlert">@color/red700</item>
+        <item name="infoBlockIconTintInfo">@color/neutral600</item>
+        <item name="infoBlockIconTintSuccess">@color/green700</item>
+        <item name="infoBlockIconTintWarning">@color/yellow900</item>
+        <item name="infoBlockTextAlert">@color/red900</item>
+        <item name="infoBlockTextInfo">?attr/contentPrimary</item>
+        <item name="infoBlockTextSuccess">@color/green900</item>
+        <item name="infoBlockTextWarning">@color/orange700</item>
+        <item name="infoBlockTextWarningSecondary">@color/black</item>
+        <item name="inputTextBackground">@color/white</item>
+        <item name="isLightTheme">true</item>
+        <item name="labelBackgroundGraySmall">@color/neutral200</item>
+        <item name="labelContentGraySmall">@color/neutral700</item>
+        <item name="labelGreen">@color/green900</item>
+        <item name="labelRed">@color/red700</item>
+        <item name="linkAlternative">@color/purple500</item>
+        <item name="linkAlternativePressed">@color/purple700</item>
+        <item name="linkPrimary">@color/green700</item>
+        <item name="linkPrimaryPressed">@color/green900</item>
+        <item name="mapPreviewIcon">@drawable/ic_empty_map_preview_light</item>
+        <item name="markerMapDestination">@drawable/ic_map_marker_destination_24dp_light</item>
+        <item name="markerMapDestinationHistory">@drawable/ic_map_marker_destination_history_22dp_light</item>
+        <item name="markerMapDestinationMap">@drawable/ic_map_marker_destination_map_22dp_light</item>
+        <item name="markerMapMatched">@drawable/ic_map_marker_matched_22dp_light</item>
+        <item name="markerMapMidStop">@drawable/ic_map_marker_mid_stop_24dp_light</item>
+        <item name="markerMapPickup">@drawable/ic_map_marker_pickup_24dp_light</item>
+        <item name="markerRouteCancelled">@drawable/ic_route_marker_cancelled_12dp_light</item>
+        <item name="markerRouteDestination">@drawable/ic_route_marker_destination_12dp_light</item>
+        <item name="markerRouteMidStop">@drawable/ic_route_marker_mid_stop_8dp_light</item>
+        <item name="markerRoutePickup">@drawable/ic_route_marker_pickup_12dp_light</item>
+        <item name="markerRouteRejected">@drawable/ic_route_marker_rejected_12dp_light</item>
+        <item name="navBarTabIconTint">@color/selector_nav_bar_tab_light</item>
+        <item name="navBarTabTextColor">@color/selector_nav_bar_tab_light</item>
+        <item name="pageIndicatorAlternative">@drawable/selector_page_indicator_alternative_light</item>
+        <item name="progressDrawableVertical">@drawable/progress_vertical_purple_light</item>
+        <item name="riderChipBackgroundColor">@color/selector_chip_bg_light</item>
+        <item name="riderChipTextColor">@color/selector_chip_text</item>
+        <item name="safetyToolkitAudioRecordingIcon">@drawable/ic_safety_toolkit_audio_in_progress_light_24</item>
+        <item name="safetyToolkitIcon">@drawable/ic_safety_toolkit_light_24</item>
+        <item name="tabIndicatorSelectedColor">@color/purple500</item>
+        <item name="tabIndicatorTextSelectedColor">@color/neutral900</item>
+        <item name="tabIndicatorTextUnselectedColor">@color/neutral700</item>
+        <item name="tabIndicatorUnselectedColor">@color/transparent300</item>
+        <item name="textInputBackground">@drawable/text_input_bg_purple</item>
+        <item name="textInputBackgroundLegacy">@drawable/text_input_bg</item>
+        <item name="textInputSearchBackground">@drawable/text_input_search_bg_light</item>
+    </style>
+    <style name="ThemeOverlay.Material3.AutoCompleteTextView" parent="@style/Base.ThemeOverlay.Material3.AutoCompleteTextView">
+        <item name="colorControlNormal">@color/m3_textfield_indicator_text_color</item>
+    </style>
+    <style name="ThemeOverlay.Material3.TextInputEditText" parent="@style/Base.ThemeOverlay.Material3.TextInputEditText">
+        <item name="colorControlNormal">@color/m3_textfield_indicator_text_color</item>
+    </style>
+    <style name="Widget.Material3.ActionBar.Solid" parent="@style/Base.Widget.Material3.ActionBar.Solid">
+        <item name="background">@drawable/m3_appbar_background</item>
+        <item name="backgroundSplit">@drawable/m3_appbar_background</item>
+        <item name="backgroundStacked">@drawable/m3_appbar_background</item>
+    </style>
+    <style name="Widget.Material3.ActionMode" parent="@style/Base.Widget.Material3.ActionMode">
+        <item name="background">@drawable/m3_appbar_background</item>
+        <item name="backgroundSplit">@drawable/m3_appbar_background</item>
+    </style>
+    <style name="Widget.Material3.CompoundButton.CheckBox" parent="@style/Base.Widget.Material3.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/m3_selection_control_ripple</item>
+    </style>
+    <style name="Widget.Material3.CompoundButton.RadioButton" parent="@style/Base.Widget.Material3.CompoundButton.RadioButton">
+        <item name="android:background">@drawable/m3_radiobutton_ripple</item>
+    </style>
+    <style name="Widget.Material3.CompoundButton.Switch" parent="@style/Base.Widget.Material3.CompoundButton.Switch">
+        <item name="android:background">@drawable/m3_selection_control_ripple</item>
+    </style>
+    <style name="Widget.Material3.Light.ActionBar.Solid" parent="@style/Base.Widget.Material3.Light.ActionBar.Solid">
+        <item name="background">@drawable/m3_appbar_background</item>
+        <item name="backgroundSplit">@drawable/m3_appbar_background</item>
+        <item name="backgroundStacked">@drawable/m3_appbar_background</item>
+    </style>
+    <style name="Widget.Material3.TabLayout.OnSurface" parent="@style/Base.Widget.Material3.TabLayout.OnSurface">
+        <item name="android:background">@drawable/m3_tabs_transparent_background</item>
+    </style>
+    <style name="Widget.MaterialComponents.PopupMenu.ContextMenu" parent="@style/Base.Widget.MaterialComponents.PopupMenu.ContextMenu">
+        <item name="android:popupBackground">?attr/popupMenuBackground</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+    <style name="Widget.MaterialComponents.PopupMenu.ListPopupWindow" parent="@style/Base.Widget.MaterialComponents.PopupMenu.ListPopupWindow">
+        <item name="android:popupBackground">?attr/popupMenuBackground</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+</resources>

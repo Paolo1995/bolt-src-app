@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/informationContent" android:paddingBottom="24dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <eu.bolt.client.design.text.DesignTextView android:textColor="@color/design_text_primary" android:gravity="center_horizontal" android:id="@+id/informationTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:layout_marginStart="@dimen/big_side_margin" android:layout_marginEnd="@dimen/big_side_margin" app:design_font="heading_xs"/>
+    <eu.bolt.client.design.text.DesignTextView android:textColor="@color/design_text_secondary" android:gravity="center" android:id="@+id/informationMessage" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" app:design_font="body_m"/>
+</LinearLayout>

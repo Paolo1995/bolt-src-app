@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="top|center_horizontal" android:id="@+id/dragIndicator" android:background="@drawable/drag_indicator_rounded_corners_v2" android:layout_width="@dimen/drag_indicator_width" android:layout_height="@dimen/drag_indicator_height" android:layout_marginTop="@dimen/drag_indicator_margin" android:layout_marginBottom="@dimen/small_side_margin"/>
+    <FrameLayout android:layout_gravity="end|top" android:id="@+id/closeButton" android:background="@drawable/bg_circle_button_neutral" android:visibility="gone" android:layout_width="32dp" android:layout_height="32dp" android:layout_margin="12dp">
+        <eu.bolt.client.design.image.DesignImageView android:layout_gravity="center" android:padding="1dp" android:layout_width="24dp" android:layout_height="24dp" android:contentDescription="@string/cd_close" app:srcCompat="@drawable/ic_cross" app:tint="@color/neutral_700"/>
+    </FrameLayout>
+</merge>

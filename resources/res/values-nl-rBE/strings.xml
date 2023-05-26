@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="allow">Toestaan</string>
+    <string name="back">Terug</string>
+    <string name="design_date_input_hint_day">Dag</string>
+    <string name="design_date_input_hint_month">Maand</string>
+    <string name="design_date_input_hint_year">Jaar</string>
+    <string name="phone_prefix_picker_select_country">Selecteer je land</string>
+    <string name="phone_prefix_search_hint">Zoek een land</string>
+    <string name="verification_camera_permission_dialog_message">Dit is vereist om het verificatieproces voort te zetten.</string>
+    <string name="verification_camera_permission_dialog_title">Camera toegang inschakelen</string>
+</resources>

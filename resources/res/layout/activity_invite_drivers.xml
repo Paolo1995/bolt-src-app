@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/toolbar"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="150dp">
+                <ImageView android:background="@color/neutral900" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/invite_drivers_background" android:scaleType="centerCrop"/>
+                <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/white" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/invite_drivers_title" android:textAllCaps="true" style="@style/Widget.UIKit.TextView.HeadingS.SemiBold"/>
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="15dp" android:paddingTop="20dp" android:paddingRight="15dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="@dimen/text_size_semi_large" android:textColor="@color/black" android:gravity="center" android:id="@+id/useReferralCodeHintTxt" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/your_friends_should_use_refcode" style="@style/Widget.UIKit.TextView.BodyL.Regular"/>
+                <LinearLayout android:paddingLeft="40dp" android:paddingTop="20dp" android:paddingRight="40dp" android:layout_width="match_parent" android:layout_height="90dp" android:layout_marginTop="20dp" android:weightSum="1">
+                    <ImageView android:id="@+id/inviteBtnSms" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/message_circular" android:scaleType="fitCenter" android:layout_weight="0.33"/>
+                    <ImageView android:id="@+id/inviteBtnEmail" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/email_circular" android:scaleType="fitCenter" android:layout_weight="0.33"/>
+                    <ImageView android:id="@+id/inviteBtnShare" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/share_circular" android:scaleType="fitCenter" android:layout_weight="0.33"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

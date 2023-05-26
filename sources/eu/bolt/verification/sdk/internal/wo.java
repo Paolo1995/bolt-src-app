@@ -1,0 +1,177 @@
+package eu.bolt.verification.sdk.internal;
+
+import eu.bolt.verification.core.domain.model.VerificationFlowStatus;
+import eu.bolt.verification.sdk.internal.b1;
+import eu.bolt.verification.sdk.internal.c2;
+import eu.bolt.verification.sdk.internal.d;
+import eu.bolt.verification.sdk.internal.jl;
+import eu.bolt.verification.sdk.internal.k7;
+import eu.bolt.verification.sdk.internal.nh;
+import eu.bolt.verification.sdk.internal.o9;
+import eu.bolt.verification.sdk.internal.qn;
+import eu.bolt.verification.sdk.internal.r1;
+import java.util.List;
+import java.util.Map;
+import kotlin.collections.CollectionsKt__CollectionsJVMKt;
+import kotlin.collections.CollectionsKt__CollectionsKt;
+import kotlin.collections.MapsKt__MapsKt;
+
+/* loaded from: classes5.dex */
+public final class wo {
+
+    /* renamed from: a  reason: collision with root package name */
+    public static final wo f45578a = new wo();
+
+    private wo() {
+    }
+
+    public final qn.b a() {
+        Map f8;
+        List k8;
+        List k9;
+        List n8;
+        List n9;
+        List k10;
+        List n10;
+        Map f9;
+        List e8;
+        List e9;
+        List n11;
+        List e10;
+        List e11;
+        List e12;
+        List n12;
+        List e13;
+        List e14;
+        List e15;
+        List n13;
+        List k11;
+        List n14;
+        List n15;
+        List e16;
+        List e17;
+        List n16;
+        List e18;
+        List n17;
+        List k12;
+        List n18;
+        List e19;
+        List e20;
+        List k13;
+        List n19;
+        List e21;
+        List e22;
+        List k14;
+        List n20;
+        List n21;
+        List e23;
+        List e24;
+        List e25;
+        List n22;
+        List k15;
+        List n23;
+        List e26;
+        List e27;
+        List k16;
+        List n24;
+        List e28;
+        List e29;
+        List e30;
+        List e31;
+        List e32;
+        List n25;
+        VerificationFlowStatus verificationFlowStatus = VerificationFlowStatus.UNKNOWN;
+        f8 = MapsKt__MapsKt.f();
+        k7.b bVar = new k7.b("First screen", f8);
+        k7.c cVar = new k7.c("First step with all views");
+        nh.b.a aVar = nh.b.a.TOP;
+        fl flVar = fl.START;
+        k8 = CollectionsKt__CollectionsKt.k();
+        k9 = CollectionsKt__CollectionsKt.k();
+        o9.b.C0081b c0081b = new o9.b.C0081b("https://i1.wp.com/thespiritedhub.com/wp-content/uploads/2020/12/Bolt-closes-E150m-investment-round.png?w=930");
+        o9.a aVar2 = o9.a.FILL_WIDTH;
+        n8 = CollectionsKt__CollectionsKt.n(new r1.a("option-1", "Multiselection option 1", null, null), new r1.a("option-2", "Multiselection option 2", null, null), new r1.a("option-3", "Multiselection option 3", null, null), new r1.a("option-4", "Multiselection option 4", null, null));
+        n9 = CollectionsKt__CollectionsKt.n("option-2", "option-4");
+        k10 = CollectionsKt__CollectionsKt.k();
+        n10 = CollectionsKt__CollectionsKt.n(new be("0", "Here is paragraph", null, flVar, k8, null), new be("1", "Here is another paragraph with icon", "https://img.utdstc.com/icon/df9/f36/df9f369bd1c71b8b5700beae0f6ec485f22b4c3daec37c4f6d52b6df682d7063:200", flVar, k9, 24), new o9("3", c0081b, aVar2), new r3("date_picker", null), new k2("country-picker-1", h2.f43301y0, null), new r1("checkbox-3", n8, true, n9), new be("4", "Here is just a test check box form without any branching in answers. You can select any choices and nothing will happen", null, flVar, k10, null));
+        b1.b bVar2 = b1.b.PRIMARY;
+        f9 = MapsKt__MapsKt.f();
+        e8 = CollectionsKt__CollectionsJVMKt.e(new b1.a(new d.c("step-selfie-camera-light", new e("next screen", f9)), null));
+        b1.b bVar3 = b1.b.SECONDARY;
+        d.b bVar4 = d.b.f42549f;
+        e9 = CollectionsKt__CollectionsJVMKt.e(new b1.a(bVar4, null));
+        n11 = CollectionsKt__CollectionsKt.n(new b1("0", "To star wars test", bVar2, e8), new b1("1", "Close form", bVar3, e9));
+        nh.b bVar5 = new nh.b(aVar, n10, n11);
+        k7.a aVar3 = k7.a.GO_BACK;
+        k7.c cVar2 = new k7.c("Light selfie theme");
+        Float valueOf = Float.valueOf(1.0f);
+        hh hhVar = hh.OVAL;
+        l1 l1Var = new l1(valueOf, hhVar, new gh(3, 4));
+        n1 n1Var = n1.LIGHT;
+        q1 q1Var = q1.FRONT;
+        k7.c cVar3 = new k7.c("Check photo quality");
+        e10 = CollectionsKt__CollectionsJVMKt.e(new o9("image-1", new o9.b.a("step-selfie-camera-light", new ec(hhVar, new gh(3, 4))), aVar2));
+        e11 = CollectionsKt__CollectionsJVMKt.e(new b1.a(new d.c("step-selfie-camera-dark", null, 2, null), null));
+        e12 = CollectionsKt__CollectionsJVMKt.e(new b1.a(bVar4, null));
+        n12 = CollectionsKt__CollectionsKt.n(new b1("0", "Continue", bVar2, e11), new b1("1", "Cancel", bVar3, e12));
+        k7.c cVar4 = new k7.c("Dark selfie theme");
+        l1 l1Var2 = new l1(Float.valueOf(0.5f), hhVar, new gh(3, 4));
+        n1 n1Var2 = n1.DARK;
+        k7.c cVar5 = new k7.c("Check photo quality");
+        e13 = CollectionsKt__CollectionsJVMKt.e(new o9("image-1", new o9.b.a("step-camera", new ec(hhVar, new gh(3, 4))), aVar2));
+        e14 = CollectionsKt__CollectionsJVMKt.e(new b1.a(new d.c("step-2", null, 2, null), null));
+        e15 = CollectionsKt__CollectionsJVMKt.e(new b1.a(bVar4, null));
+        n13 = CollectionsKt__CollectionsKt.n(new b1("0", "Continue", bVar2, e14), new b1("1", "Cancel", bVar3, e15));
+        k7.c cVar6 = new k7.c("Star wars step");
+        k11 = CollectionsKt__CollectionsKt.k();
+        n14 = CollectionsKt__CollectionsKt.n(new r1.a("option-1", "Empire", "Original trilogy", "https://static.wikia.nocookie.net/starwars/images/2/2e/Imperial_Emblem.svg/revision/latest/scale-to-width-down/200?cb=20080220004323"), new r1.a("option-2", "Resistance", "Original trilogy", "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Rebel_Alliance_logo.svg/1024px-Rebel_Alliance_logo.svg.png"));
+        n15 = CollectionsKt__CollectionsKt.n(new o9("image-1", new o9.b.C0081b("https://lumiere-a.akamaihd.net/v1/images/dplus-complete-saga-hero-mobile_8b11b1d7.jpeg?region=0,0,1024,626&width=960"), aVar2), new be("0", "Chose your side", null, flVar, k11, null), new r1("checkbox-1", n14, false, null));
+        d.c cVar7 = new d.c("step-2", null, 2, null);
+        e16 = CollectionsKt__CollectionsJVMKt.e("option-1");
+        c2.a.EnumC0039a enumC0039a = c2.a.EnumC0039a.AT_LEAST_ONE;
+        d.c cVar8 = new d.c("step-3", null, 2, null);
+        e17 = CollectionsKt__CollectionsJVMKt.e("option-2");
+        n16 = CollectionsKt__CollectionsKt.n(new b1.a(cVar7, new c2.a("checkbox-1", e16, enumC0039a)), new b1.a(cVar8, new c2.a("checkbox-1", e17, enumC0039a)));
+        e18 = CollectionsKt__CollectionsJVMKt.e(new b1.a(bVar4, null));
+        n17 = CollectionsKt__CollectionsKt.n(new b1("0", "Continue", bVar2, n16), new b1("1", "Cancel", bVar3, e18));
+        k7.c cVar9 = new k7.c("Empire side selected");
+        k12 = CollectionsKt__CollectionsKt.k();
+        n18 = CollectionsKt__CollectionsKt.n(new be("0", "The Galactic Empire, also known as the Old Empire, the First Galactic Empire, Palpatine's New Order, the Imperium or simply the Empire, was the galactic government established by Supreme Chancellor Palpatine to replace the Galactic Republic in 19 BBY and bring Sith rule to the galaxy.", "https://static.wikia.nocookie.net/starwars/images/2/2e/Imperial_Emblem.svg/revision/latest/scale-to-width-down/200?cb=20080220004323", flVar, k12, null), new o9("1", new o9.b.C0081b("https://starwarsblog.starwars.com/wp-content/uploads/2020/06/the-empire-strikes-back-post-m-ferguson_TALL.jpg"), aVar2));
+        e19 = CollectionsKt__CollectionsJVMKt.e(new b1.a(new d.c("step-4", null, 2, null), null));
+        e20 = CollectionsKt__CollectionsJVMKt.e(new b1("0", "Next", bVar2, e19));
+        k7.c cVar10 = new k7.c("Second option selected");
+        k13 = CollectionsKt__CollectionsKt.k();
+        n19 = CollectionsKt__CollectionsKt.n(new be("0", "The Resistance was an independent paramilitary/splinter force of the New Republic Defense Force that strove to protect the principles of the New Republic and believed the First Order, an autocratic military junta in the Unknown Regions, one of the successors of the Galactic Empire, posed a serious threat to both the New Republic and democracy in the galaxy, unlike the New Republic Senate and High Command.", "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Rebel_Alliance_logo.svg/1024px-Rebel_Alliance_logo.svg.png", flVar, k13, null), new o9("1", new o9.b.C0081b("https://i.insider.com/567484d7dd0895ff5d8b4849?width=1024&format=jpeg"), aVar2));
+        e21 = CollectionsKt__CollectionsJVMKt.e(new b1.a(new d.c("step-4", null, 2, null), null));
+        e22 = CollectionsKt__CollectionsJVMKt.e(new b1("0", "Next", bVar2, e21));
+        k7.c cVar11 = new k7.c("Who is Darth Vader's son?");
+        k14 = CollectionsKt__CollectionsKt.k();
+        n20 = CollectionsKt__CollectionsKt.n(new o9("1", new o9.b.C0081b("https://static.onecms.io/wp-content/uploads/sites/6/2019/12/empire-strikes-back-1-2000.jpg"), aVar2), new jl("input-1", "Firstname Lastname", jl.a.TEXT), new be("1", "Please enter the first and last names of this character. If you don't remember so use the help button.", "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Infobox_info_icon.svg/480px-Infobox_info_icon.svg.png", flVar, k14, null));
+        n21 = CollectionsKt__CollectionsKt.n(new b1.a(new d.c("step-5", null, 2, null), new c2.b("input-1", "[Ll]uke [Ss]kywalker")), new b1.a(new d.c("step-6", null, 2, null), new c2.c("input-1")));
+        d.a aVar4 = d.a.f42547f;
+        e23 = CollectionsKt__CollectionsJVMKt.e(new b1.a(aVar4, null));
+        e24 = CollectionsKt__CollectionsJVMKt.e(new b1("btn-3", "Close", bVar2, e23));
+        e25 = CollectionsKt__CollectionsJVMKt.e(new b1.a(new d.C0042d("Hint to the question", "L* S*", e24, null, 8, null), null));
+        n22 = CollectionsKt__CollectionsKt.n(new b1("btn-1", "Next", bVar2, n21), new b1("btn-2", "Get help", bVar3, e25));
+        k7.c cVar12 = new k7.c("Correct");
+        k15 = CollectionsKt__CollectionsKt.k();
+        n23 = CollectionsKt__CollectionsKt.n(new o9("1", new o9.b.C0081b("https://memegenerator.net/img/instances/69083853.jpg"), aVar2), new be("0", "Correct! Despite this iconic exchange occurring in one of the most climactic scenes in movie history, Darth Vader never says, “Luke, I am your father.” In actuality, he says, “No, I am your father.”", null, flVar, k15, null));
+        e26 = CollectionsKt__CollectionsJVMKt.e(new b1.a(new d.c("step-7", null, 2, null), null));
+        e27 = CollectionsKt__CollectionsJVMKt.e(new b1("btn-1", "Next", bVar2, e26));
+        k7.c cVar13 = new k7.c("Incorrect");
+        k16 = CollectionsKt__CollectionsKt.k();
+        n24 = CollectionsKt__CollectionsKt.n(new o9("1", new o9.b.C0081b("https://i.imgflip.com/1l8jiy.jpg"), aVar2), new be("0", "Not true. The protagonist of the original Star Wars trilogy and the son of Darth Vader is Luke Skyoker", null, flVar, k16, null));
+        e28 = CollectionsKt__CollectionsJVMKt.e(new b1.a(aVar4, null));
+        e29 = CollectionsKt__CollectionsJVMKt.e(new b1("btn-1", "Back", bVar3, e28));
+        k7.c cVar14 = new k7.c("Original Trilogy Premiere Date");
+        e30 = CollectionsKt__CollectionsJVMKt.e(new r3("date", null));
+        e31 = CollectionsKt__CollectionsJVMKt.e(new b1.a(bVar4, new c2.c("date")));
+        e32 = CollectionsKt__CollectionsJVMKt.e(new b1("btn-1", "Submit", bVar2, e31));
+        n25 = CollectionsKt__CollectionsKt.n(new k7("step-0", cVar, bVar5, aVar3, bVar, null, 32, null), new k7("step-selfie-camera-light", cVar2, new nh.a("step-camera-selfie-preview", "Instructions go here usually taking two or more lines. Sometimes they may take more lines and contain other font styles, including <b>bold text</b> or even links.", null, l1Var, null, q1Var, n1Var, 20, null), aVar3, null, null, 48, null), new k7("step-camera-selfie-preview", cVar3, new nh.b(aVar, e10, n12), aVar3, null, null, 48, null), new k7("step-selfie-camera-dark", cVar4, new nh.a("step-camera", "Instructions go here usually taking two or more lines. Sometimes they may take more lines and contain other font styles, including <b>bold text</b> or even links.", null, l1Var2, null, q1Var, n1Var2, 20, null), aVar3, null, null, 48, null), new k7("step-camera", new k7.c("Title"), new nh.a("step-camera-preview", "Instructions go here usually taking two or more lines. Sometimes they may take more lines and contain other font styles, including <b>bold text</b> or even links.", null, new l1(Float.valueOf(0.5f), hh.RECTANGLE, new gh(3, 4)), null, q1.BACK, n1Var2, 20, null), aVar3, null, null, 48, null), new k7("step-camera-preview", cVar5, new nh.b(aVar, e13, n13), aVar3, null, null, 48, null), new k7("step-1", cVar6, new nh.b(aVar, n15, n17), aVar3, null, null, 48, null), new k7("step-2", cVar9, new nh.b(aVar, n18, e20), aVar3, null, null, 48, null), new k7("step-3", cVar10, new nh.b(aVar, n19, e22), aVar3, null, null, 48, null), new k7("step-4", cVar11, new nh.b(aVar, n20, n22), aVar3, null, null, 48, null), new k7("step-5", cVar12, new nh.b(aVar, n23, e27), aVar3, null, null, 48, null), new k7("step-6", cVar13, new nh.b(aVar, n24, e29), aVar3, null, null, 48, null), new k7("step-7", cVar14, new nh.b(aVar, e30, e32), aVar3, null, null, 48, null));
+        return new qn.b(verificationFlowStatus, "1", n25, "step-0", null, null);
+    }
+
+    public final String b() {
+        return "camera";
+    }
+}

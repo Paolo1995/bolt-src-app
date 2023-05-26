@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:padding="24dp" android:layout_width="match_parent" android:layout_height="@dimen/height_normal">
+    <eu.bolt.client.design.view.DesignPlaceholderView android:id="@+id/loadingPlaceholder" android:layout_width="0dp" android:layout_height="20dp" app:design_corner_radius="8dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintHorizontal_bias="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+</merge>

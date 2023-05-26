@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ViewStub android:layout_gravity="start" android:id="@+id/textfieldStartIcon" android:layout="@layout/view_textfield_icon" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginHorizontal="16dp"/>
+    <eu.bolt.client.design.text.DesignTextView android:textColor="@color/design_text_secondary" android:gravity="left" android:layout_gravity="end" android:id="@+id/hint" android:paddingBottom="16dp" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:paddingEnd="@dimen/std_side_margin" android:layout_marginStart="@dimen/std_side_margin" app:design_font="body_xs"/>
+    <ViewStub android:id="@+id/textfieldInput" android:layout="@layout/view_textfield_input" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:layout_gravity="end" android:id="@+id/textfieldEndIcon" android:layout="@layout/view_textfield_icon" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginHorizontal="16dp"/>
+</merge>

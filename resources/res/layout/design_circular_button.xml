@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <eu.bolt.client.design.image.DesignImageView android:layout_gravity="center" android:id="@+id/circularView" android:background="@drawable/bg_circle_button_default" android:padding="16dp" android:layout_width="56dp" android:layout_height="56dp" android:layout_margin="4dp" android:scaleType="fitCenter"/>
+        <View android:layout_gravity="end|top" android:id="@+id/dotBadgeView" android:background="@drawable/badge_outlined" android:visibility="gone" android:layout_width="12dp" android:layout_height="12dp" android:layout_margin="6dp" android:outlineProvider="none"/>
+        <eu.bolt.client.design.text.DesignTextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="end|top" android:id="@+id/counterBadgeView" android:background="@drawable/background_circle_button_badge" android:paddingLeft="6dp" android:paddingRight="6dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="20dp" android:minWidth="20dp" app:design_font="body_semibold_xs"/>
+        <eu.bolt.client.design.image.DesignImageView android:layout_gravity="end|top" android:id="@+id/iconBadgeView" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" android:contentDescription="@null"/>
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="end|top" android:id="@+id/lottieBadgeView" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" app:lottie_autoPlay="true" app:lottie_loop="true"/>
+        <eu.bolt.client.design.view.DesignPlaceholderView android:layout_gravity="center" android:id="@+id/iconPlaceHolder" android:visibility="gone" android:layout_width="56dp" android:layout_height="56dp" android:layout_margin="4dp"/>
+    </FrameLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <eu.bolt.client.design.text.DesignTextView android:textColor="@color/design_text_primary" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/labelView" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxLines="2" app:design_font="body_xs"/>
+        <eu.bolt.client.design.view.DesignPlaceholderView android:layout_gravity="center" android:id="@+id/titlePlaceholder" android:visibility="gone" android:layout_width="52dp" android:layout_height="12dp" android:layout_margin="4dp"/>
+    </FrameLayout>
+</merge>

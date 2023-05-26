@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/content_status_bar"/>
+    <ee.mtakso.driver.uicore.components.views.PopupToolbar android:id="@+id/toolbar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0" app:ptb_icon="back" app:ptb_titleInCenter="false" style="@style/PopupToolbarStyle"/>
+    <FrameLayout android:id="@+id/container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

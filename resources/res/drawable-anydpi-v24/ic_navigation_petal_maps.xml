@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="64dp" android:width="64dp" android:viewportWidth="64" android:viewportHeight="64">
+    <path android:fillColor="#e6e6f4" android:pathData="M32,0L32,0A32,32 0,0 1,64 32L64,32A32,32 0,0 1,32 64L32,64A32,32 0,0 1,0 32L0,32A32,32 0,0 1,32 0z"/>
+    <group>
+        <clip-path android:pathData="M32,0L32,0A32,32 0,0 1,64 32L64,32A32,32 0,0 1,32 64L32,64A32,32 0,0 1,0 32L0,32A32,32 0,0 1,32 0z"/>
+        <path android:fillColor="@drawable/res_0x7f0800b9_ic_navigation_petal_maps__0" android:pathData="M0,0h64v64h-64z"/>
+        <group>
+            <clip-path android:pathData="M0,0h64v64h-64z"/>
+            <path android:fillColor="#e6e9f1" android:pathData="M0,35.0476h64v28.9524h-64z"/>
+            <path android:fillColor="#ffffff" android:pathData="M10.1264,47.7809C6.315,47.7809 1.3658,47.2267 -0.4572,46.4095V39.5524C0.6659,40.0558 7.2622,41.5333 10.1264,41.5333C18.3595,41.5333 23.619,36.0476 33.9809,36.0476C43.6066,36.0476 56.2286,38.4857 64.1873,43.8456V51.8952C56.4381,45.9072 43.6672,41.9905 33.9809,41.9905C25.3152,41.9905 21.0286,47.7809 10.1264,47.7809Z" android:fillType="evenOdd"/>
+            <path android:fillColor="@drawable/res_0x7f0800ba_ic_navigation_petal_maps__1" android:pathData="M9.8216,41.5428C6.0102,41.5428 0.9087,40.8172 -0.9143,40L-0.4571,31.0095C0.666,31.513 6.7358,32.7047 9.6,32.7047C25.2952,32.7047 37.4333,21.0095 54.5,21.0095C71.5667,21.0095 69,32.7047 69,32.7047L63.8825,43.8286C55.9587,38.9524 43.0577,36.0571 33.3714,36.0571C23.3143,36.0571 18.2857,41.5428 9.8216,41.5428Z" android:fillType="evenOdd"/>
+            <path android:fillColor="#ffffff" android:pathData="M32,26.819m-10.9714,0a10.9714,10.9714 0,1 1,21.9428 0a10.9714,10.9714 0,1 1,-21.9428 0"/>
+            <path android:fillColor="#cbd2e2" android:pathData="M23.4667,54.5524a8.8381,2.4381 0,1 0,17.6762 0a8.8381,2.4381 0,1 0,-17.6762 0z"/>
+            <path android:fillColor="@drawable/res_0x7f0800bb_ic_navigation_petal_maps__2" android:pathData="M32.0084,9.1429C36.7562,9.1429 41.1992,10.9941 44.5314,14.3263C47.8636,17.6585 49.7148,22.1014 49.7366,26.8057C49.7366,31.2051 48.1249,35.7351 44.8145,40.679C41.6783,45.3615 35.2317,52.5704 33.5547,54.2256C33.1627,54.6394 32.5965,54.8572 32.0302,54.8572H32.0084C31.4204,54.8572 30.8759,54.6176 30.4621,54.2038C28.6544,52.3526 22.2514,44.9695 19.2677,40.7443C15.979,36.0836 14.3238,31.4011 14.3238,26.8275C14.3238,22.1014 16.175,17.6585 19.5072,14.3263C22.8394,10.9941 27.2606,9.1429 32.0084,9.1429ZM32.0302,33.383C35.6387,33.383 38.5639,30.4578 38.5639,26.8493C38.5639,23.2408 35.6387,20.3156 32.0302,20.3156C28.4217,20.3156 25.4965,23.2408 25.4965,26.8493C25.4965,30.4578 28.4217,33.383 32.0302,33.383Z" android:fillType="evenOdd"/>
+        </group>
+    </group>
+</vector>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="?attr/backTertiary" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:background="?attr/backTertiary" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_scrollFlags="enterAlways|scroll">
+            <ee.mtakso.driver.uikit.widgets.SegmentControlView android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/segments" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" android:layout_marginStart="24dp" android:layout_marginEnd="24dp">
+                <ee.mtakso.driver.uikit.widgets.SegmentControlItemView android:id="@+id/scheduledSegment" android:layout_width="wrap_content" android:layout_height="wrap_content" app:sci_titleText="@string/requests"/>
+                <ee.mtakso.driver.uikit.widgets.SegmentControlItemView android:id="@+id/acceptedSegment" android:layout_width="wrap_content" android:layout_height="wrap_content" app:sci_titleText="@string/accepted"/>
+            </ee.mtakso.driver.uikit.widgets.SegmentControlView>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="1dp" app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+    <ee.mtakso.driver.uikit.widgets.IndeterminateProgressView android:layout_gravity="center" android:id="@+id/loadingView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/Widget.UIKit.IndeterminateProgressView.XL"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/emptyLayout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_scheduling_72dp" android:tint="?attr/dynamicNeutral03"/>
+        <TextView android:textColor="?attr/contentPrimary" android:gravity="center" android:id="@+id/emptyTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:paddingStart="40dp" android:paddingEnd="40dp" style="@style/Widget.UIKit.TextView.HeadingS.SemiBold"/>
+        <TextView android:textColor="?attr/contentSecondary" android:gravity="center" android:id="@+id/emptySubtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:paddingStart="40dp" android:paddingEnd="40dp" style="@style/Widget.UIKit.TextView.BodyM.Regular"/>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

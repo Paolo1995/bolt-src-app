@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <eu.bolt.client.design.pin.view.PinShadow android:layout_gravity="bottom|center_horizontal" android:id="@+id/shadow" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <eu.bolt.client.design.pin.view.PinStick android:layout_gravity="top|center_horizontal" android:id="@+id/stick" android:layout_width="4dp" android:layout_height="20dp" android:layout_marginTop="47dp"/>
+    <eu.bolt.client.design.pin.view.PinCircle android:layout_gravity="top|center_horizontal" android:id="@+id/circle" android:layout_width="48dp" android:layout_height="48dp"/>
+</merge>

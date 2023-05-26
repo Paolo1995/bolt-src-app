@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/selectable_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <eu.bolt.client.design.image.DesignImageView android:layout_gravity="center_vertical" android:id="@+id/switchItemStartIcon" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:contentDescription="@string/cd_icon" android:layout_marginEnd="16dp"/>
+    <eu.bolt.client.design.text.DesignTextView android:textColor="@color/design_text_primary" android:id="@+id/switchItemTitle" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:layout_weight="1" android:textDirection="locale" app:design_font="body_m"/>
+    <Space android:layout_width="@dimen/big_side_margin" android:layout_height="0dp"/>
+    <androidx.appcompat.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@+id/switchItemSwitch" android:background="@null" android:focusable="false" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <eu.bolt.client.design.progress.DesignCircleProgressView android:layout_gravity="center_vertical" android:id="@+id/switchItemProgress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12dp" app:dcp_progress_size="smallest"/>
+</merge>

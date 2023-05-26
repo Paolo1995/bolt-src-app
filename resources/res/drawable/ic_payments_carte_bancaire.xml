@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="24dp" android:width="24dp" android:autoMirrored="true" android:viewportWidth="24" android:viewportHeight="24">
+    <path android:fillColor="@drawable/res_0x7f0800be_ic_payments_carte_bancaire__0" android:pathData="m2.9945,3.0018h17.9963c1.6521,0 2.9945,1.3424 2.9945,2.9945v11.9926c0,1.6521 -1.3424,2.9945 -2.9945,2.9945h-17.9963c-1.6521,0.0147 -2.9945,-1.3276 -2.9945,-2.9797v-12.0074c0,-1.6521 1.3424,-2.9945 2.9945,-2.9945z"/>
+    <path android:fillColor="#fff" android:pathData="m20.6221,10.1856c0,-0.9293 -0.7523,-1.6963 -1.6816,-1.6963h-6.1512v3.3927h6.1512c0.9293,0 1.6816,-0.7523 1.6816,-1.6964z" android:fillType="evenOdd"/>
+    <path android:fillColor="#fff" android:pathData="m20.6221,13.7849c0,-0.9293 -0.7523,-1.6964 -1.6816,-1.6964h-6.1512v3.3928h6.1512c0.9293,-0.0148 1.6816,-0.7671 1.6816,-1.6964z" android:fillType="evenOdd"/>
+    <path android:fillColor="#fff" android:pathData="m7.8771,12.0886v-0.2066h4.5138v-0.2802c0,-1.6964 -1.3718,-3.083 -3.0829,-3.083h-2.8617c-1.6964,0 -3.083,1.3719 -3.083,3.083v0.826c0,1.6964 1.3719,3.083 3.083,3.083h2.8765c1.6964,0 3.083,-1.3718 3.083,-3.083v-0.3245h-4.5286z" android:fillType="evenOdd"/>
+</vector>

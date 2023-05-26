@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" app:titleTextAppearance="@style/ToolbarStyle.Title" style="@style/ToolbarStyle"/>
+</merge>

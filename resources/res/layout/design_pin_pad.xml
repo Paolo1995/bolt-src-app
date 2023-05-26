@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="48dp" android:layout_height="48dp">
+    <eu.bolt.client.design.image.DesignImageView android:layout_gravity="center" android:id="@+id/shadow" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_pin_pad_shadow" android:scaleType="centerInside"/>
+    <View android:layout_gravity="center" android:id="@+id/pad" android:background="@drawable/bg_pin_pad_white" android:layout_width="26dp" android:layout_height="26dp"/>
+    <View android:layout_gravity="center" android:id="@+id/coloredRing" android:background="@drawable/bg_pin_pad_green" android:layout_width="20dp" android:layout_height="20dp"/>
+    <View android:layout_gravity="center" android:id="@+id/centreCircle" android:background="@drawable/bg_pin_pad_white" android:layout_width="12dp" android:layout_height="12dp"/>
+</merge>

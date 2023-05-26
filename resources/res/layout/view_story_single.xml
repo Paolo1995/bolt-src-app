@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <eu.bolt.android.stories.widget.progress.StoryProgressView android:id="@+id/storyProgress" android:visibility="gone" android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginTop="9dp" android:layout_marginStart="12dp" android:layout_marginEnd="12dp"/>
+    <com.google.android.material.card.MaterialCardView android:id="@+id/slideCard" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="20dp" app:cardCornerRadius="@dimen/story_card_radius">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/slideContentainer" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ProgressBar android:id="@+id/loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <eu.bolt.android.stories.widget.slide.StorySlideView android:id="@+id/slideView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <include android:id="@+id/storyErrorContent" android:visibility="gone" layout="@layout/content_story_error"/>
+            <ImageView android:id="@+id/storyClose" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginTop="12dp" android:layout_marginEnd="12dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+</merge>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_calendar_24dp_white" android:id="@+id/actionChooseMode" android:title="@string/balance_view_mode_chooser_title" app:iconTint="?attr/contentPrimary" app:showAsAction="always"/>
+</menu>

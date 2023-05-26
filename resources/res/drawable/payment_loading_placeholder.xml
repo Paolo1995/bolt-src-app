@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/payment_placeholder_height" android:width="@dimen/payment_icon_size"/>
+    <solid android:color="@color/neutral_200"/>
+    <corners android:radius="2dp"/>
+</shape>

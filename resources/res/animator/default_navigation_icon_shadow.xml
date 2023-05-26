@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <set>
+            <objectAnimator android:duration="0" android:valueTo="12dp" android:valueType="floatType" android:propertyName="elevation"/>
+            <objectAnimator android:duration="0" android:valueTo="#33000000" android:valueType="colorType" android:propertyName="shadowColor"/>
+        </set>
+    </item>
+</selector>

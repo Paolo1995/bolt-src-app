@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/container" android:background="@drawable/bg_chip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp">
+        <eu.bolt.client.design.text.DesignTextView android:textColor="@color/design_chip_title" android:id="@+id/title" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:maxLines="1" android:layout_marginStart="12dp" app:design_font="body_s"/>
+        <eu.bolt.client.design.chips.DesignCounterView android:id="@+id/counter" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4dp"/>
+    </LinearLayout>
+</merge>

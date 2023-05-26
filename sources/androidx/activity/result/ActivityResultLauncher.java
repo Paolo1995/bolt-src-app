@@ -1,0 +1,20 @@
+package androidx.activity.result;
+
+import android.annotation.SuppressLint;
+import androidx.activity.result.contract.ActivityResultContract;
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityOptionsCompat;
+
+/* loaded from: classes.dex */
+public abstract class ActivityResultLauncher<I> {
+    @NonNull
+    public abstract ActivityResultContract<I, ?> getContract();
+
+    public void launch(@SuppressLint({"UnknownNullness"}) I i8) {
+        launch(i8, null);
+    }
+
+    public abstract void launch(@SuppressLint({"UnknownNullness"}) I i8, ActivityOptionsCompat activityOptionsCompat);
+
+    public abstract void unregister();
+}

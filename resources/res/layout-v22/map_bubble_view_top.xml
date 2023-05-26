@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:id="@+id/mapPinLabel" android:background="@drawable/map_pin_bg_green700" android:paddingLeft="12dp" android:paddingTop="6dp" android:paddingRight="12dp" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="12dp" android:paddingVertical="6dp" style="@style/Widget.UIKit.TextView.BodyS.SemiBold"/>
+    <ImageView android:id="@+id/mapPinTriangle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:layout_marginRight="13dp" android:src="@drawable/map_pin_triangle_green700"/>
+</LinearLayout>

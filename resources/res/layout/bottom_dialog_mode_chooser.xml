@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/root" android:background="?attr/bottomDialogBackPrimary" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="14sp" android:textColor="?attr/contentSecondary" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/balance_view_mode_chooser_title" android:layout_marginStart="24dp" style="@style/Widget.UIKit.TextView.BodyS.Regular"/>
+    <ee.mtakso.driver.uicore.components.views.IndeterminateProgressView android:layout_gravity="center" android:id="@+id/progressView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="24dp" style="@style/Widget.UIKit.IndeterminateProgressView"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerView" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

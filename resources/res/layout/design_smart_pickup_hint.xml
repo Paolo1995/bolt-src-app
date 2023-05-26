@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+    <LinearLayout android:orientation="vertical" android:id="@+id/smart_pickup_hint" android:background="@drawable/smart_pickup_hint_bg" android:paddingLeft="8dp" android:paddingTop="4dp" android:paddingRight="8dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/triangle">
+        <eu.bolt.client.design.text.DesignTextView android:textSize="@dimen/text_size_16" android:textColor="@color/white" android:id="@+id/hintTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/smart_pickup_hint_max_width" android:text="@string/quick_pickup" android:maxLines="2"/>
+        <eu.bolt.client.design.text.DesignTextView android:textSize="@dimen/text_size_14" android:textColor="@color/white" android:id="@+id/hintText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/smart_pickup_hint_max_width" android:text="@string/rides_often_start_here" android:maxLines="3"/>
+    </LinearLayout>
+    <eu.bolt.client.design.indicator.DesignPointingTriangleView android:id="@+id/triangle" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginBottom="-4dp" android:layout_centerHorizontal="true" android:rotation="90"/>
+</RelativeLayout>

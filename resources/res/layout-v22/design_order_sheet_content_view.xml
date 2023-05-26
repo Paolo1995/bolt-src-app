@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Space android:id="@+id/topSpace" android:layout_width="match_parent" android:layout_height="16dp"/>
+    <eu.bolt.client.design.listitem.DesignSelectedPaymentView android:id="@+id/changePayment" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/buttonContainer" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp"/>
+    <eu.bolt.client.design.text.DesignTextView android:textColor="@color/design_text_secondary" android:gravity="center_horizontal" android:id="@+id/bottomSubtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="8dp" android:layout_marginRight="24dp" android:layout_marginBottom="8dp" android:layout_marginHorizontal="24dp" android:layout_marginVertical="8dp" app:design_font="body_xs"/>
+    <Space android:id="@+id/bottomSpace" android:visibility="gone" android:layout_width="match_parent" android:layout_height="24dp"/>
+</LinearLayout>

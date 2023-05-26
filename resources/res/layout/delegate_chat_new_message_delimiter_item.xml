@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12sp" android:textColor="?attr/contentPrimary" android:gravity="start" android:id="@+id/messageText" android:paddingLeft="16dp" android:paddingTop="10dp" android:paddingRight="16dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" style="@style/Widget.UIKit.TextView.BodyXS.SemiBold"/>
+    <ee.mtakso.driver.uicore.components.views.RoundedDashDelimiterView android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginBottom="8dp" app:rddv_dashColor="?attr/contentPrimary" app:rddv_dashGap="6dp" app:rddv_dashLineWidth="2dp" app:rddv_dashWidth="0dp"/>
+</LinearLayout>

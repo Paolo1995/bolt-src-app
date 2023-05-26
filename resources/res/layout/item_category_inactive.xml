@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <CheckBox android:id="@+id/checkBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:layout_marginEnd="4dp"/>
+    <ee.mtakso.driver.uicore.components.views.AlphaAnimatedPlaceholderView android:id="@+id/title" android:layout_width="50dp" android:layout_height="18sp" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:layout_marginEnd="24dp" app:plv_animationDuration="750" app:plv_color="@color/white" app:plv_maximumAnimationAlpha="0.6" app:plv_minimumAnimationAlpha="0.4" app:plv_roundRadius="12sp"/>
+</LinearLayout>

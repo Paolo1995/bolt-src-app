@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BoltBaseTheme" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/BoltThemeActivityTransitions</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="colorAccent">@color/green_500</item>
+        <item name="colorPrimary">@color/green_500</item>
+        <item name="colorPrimaryDark">@color/seagrass</item>
+        <item name="toolbarStyle">@style/ToolbarBase</item>
+    </style>
+</resources>

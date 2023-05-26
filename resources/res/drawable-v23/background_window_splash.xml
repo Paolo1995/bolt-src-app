@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/green_500"/>
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="@dimen/splash_image_size" android:width="@dimen/splash_image_size" android:drawable="@drawable/bolt_logo_white_vector"/>
+</layer-list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:background="?attr/backPrimary" android:paddingLeft="24dp" android:paddingTop="16dp" android:paddingRight="24dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+    <TextView android:textColor="?attr/contentPrimary" android:gravity="center" android:id="@+id/payToBoltTitle" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Widget.UIKit.TextView.BodyM.Regular"/>
+    <ee.mtakso.driver.uikit.widgets.RoundButton android:id="@+id/payToBoltButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/debt_pay_to_bolt" style="@style/Widget.UIKit.RoundButton.Action.Large"/>
+    <TextView android:textColor="?attr/contentSecondary" android:gravity="center" android:id="@+id/payToBoltHint" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" style="@style/Widget.UIKit.TextView.BodyXS.Regular"/>
+</LinearLayout>

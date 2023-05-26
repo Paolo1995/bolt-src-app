@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/workCoordinator" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/workViewParentLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/view_error"/>
+        <include layout="@layout/view_loading"/>
+        <include layout="@layout/destination_snackbar"/>
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/activeDestinationContainer" layout="@layout/fragment_work_top_controls"/>
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/fragment_work_bottom_controls"/>
+    </RelativeLayout>
+    <include layout="@layout/include_driver_fatigue_box"/>
+    <include android:id="@+id/workStatisticsView" android:layout_width="match_parent" android:layout_height="wrap_content" app:behavior_peekHeight="100dp" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior" layout="@layout/work_statistics_view"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="48dp" android:layout_height="48dp">
+    <eu.bolt.client.design.image.DesignImageView android:id="@+id/background" android:layout_width="match_parent" android:layout_height="match_parent" app:lottie_autoPlay="true" app:lottie_loop="true"/>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/etaContainer" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <eu.bolt.client.design.text.DesignTextView android:textColor="@color/white" android:layout_gravity="top|center_horizontal" android:id="@+id/value" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:maxLength="2" android:fontFeatureSettings="tnum" app:design_font="body_semibold_xs"/>
+        <eu.bolt.client.design.text.DesignTextView android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@+id/suffix" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/minutes_suffix" android:singleLine="true" android:includeFontPadding="false" android:maxLength="4" app:design_font="body_xs"/>
+    </LinearLayout>
+    <eu.bolt.client.design.image.DesignImageView android:layout_gravity="center" android:id="@+id/icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:lottie_autoPlay="true" app:lottie_loop="true"/>
+    <eu.bolt.client.design.image.DesignImageView android:layout_gravity="center" android:id="@+id/customLoader" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:lottie_autoPlay="false" app:lottie_loop="false"/>
+    <View android:layout_gravity="center" android:id="@+id/dot" android:background="@drawable/bg_pin_circle_white" android:visibility="visible" android:layout_width="16dp" android:layout_height="16dp"/>
+</merge>
